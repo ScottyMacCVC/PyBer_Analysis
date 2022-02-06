@@ -10,11 +10,11 @@
 ---
 ### Correlation of Data to Underserved Neighborhoods 
  -  Our goal is to correlate underserved neighborhoods to potential barriers in fare-cost per ride. We will present our method for finding the target neighborhood(s). There is one rural city which stands out. In the center of the scatter plot below, there is a rural city with a small circle. The size of the circle correlates to the number of available drivers in the city. We see the Average Fare is average compared to other rural cities, but higher than all Urban & most Suburban average $s per fare. There is demand for rides based on the higher-than-average Total Number of Rides for the city. Based on the available data, we would consider the rural city to be likely underserved. 
-### ![Fig1](https://github.com/ScottyMacCVC/PyBer_Analysis/blob/main/Resources/Fig1.png)
+### ![Fig1 Edit for Challenge](https://github.com/ScottyMacCVC/PyBer_Analysis/blob/main/Resources/Fig1%20-%20Edit%20for%20Challenge.png)
 ---
 
 ## Summary of Urban, Suburban, & Rural City Types
-  - The data has shown a trend amoung the three city types. Our overall fares per city type reflect a trend towards Suburban & Urban cities. We see a general increase in fare dollars over the time period selected. If we refer back to our first scatter chart and use the same method to find underserved neighborhoods, we can now add in a third measurement with the chart below. We see three blue, Suburban dots near the same yellow, rural city dot we first explored. These blue dots are smaller and indicate a small number of available drivers. We know from the summary chart below, Suburban & Urban areas are showing growth wherease rural areas are shrinking. We would then target the three Suburban cities with low driver counts, but higher-than-average rides and average fare. 
+  - The data has shown a trend amoung the three city types. Our overall fares per city type reflect a trend towards Suburban & Urban cities. We see a general increase in fare dollars over the time period selected. If we refer back to our first scatter chart and use the same method to find underserved neighborhoods, we can now add in a third measurement with the chart below. The scatter plot shows three blue, Suburban dots near the same yellow, rural city dot we first explored. These blue dots are smaller and indicate a small number of available drivers. We know from the summary chart below, Suburban & Urban areas are showing growth wherease rural areas are shrinking. We would then target the three Suburban cities with low driver counts, but higher-than-average rides and average fare. 
 ### ![PyBer_fare_summary](https://github.com/ScottyMacCVC/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.PNG)
 ---
 
