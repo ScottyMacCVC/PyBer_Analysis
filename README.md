@@ -18,7 +18,7 @@
 ### ![PyBer_fare_summary](https://github.com/ScottyMacCVC/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.PNG)
 ---
 ### Three Disparities Among the City Types
-- **1** Removed 9th grade data from Thomas High School 
+- **1** The vast majority of the ride fares come from Urban areas. The data does show four Suburban cities which stand out, but if we focused in on Urban 
 - **2** Using Dataframes, we built a DF without 9th grade data from Thomas High School and combined it with the existing data 
 - **3** Using the new data, we presented the data in several ways such as by math/reading, by grade, spending ranges, school size, and type. 
 
