@@ -18,10 +18,10 @@
 ### ![PyBer_fare_summary](https://github.com/ScottyMacCVC/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.PNG)
 ---
 ### Three Disparities Among the City Types
-- **1** The vast majority of the ride fares come from Urban areas. The data above does show four Suburban cities which stand out, but it may be wise to view the three city types seperately. Foe example, the image below show a few cities toward the top right of the graph with low drivers and good KPIs. 
+- **1** The vast majority of the ride fares come from Urban areas. The data above does show four Suburban cities which stand out, but it may be wise to view the three city types seperately. Foe example, the image below show a few cities toward the top right of the graph with low drivers and good KPIs. We know Urban areas are typically successful and these cities would be targeted using our analyis method. 
 ### ![Urban Only](https://github.com/ScottyMacCVC/PyBer_Analysis/blob/main/Resources/Urban%20Only-%20Edit%20for%20Challenge.png)
-- **2** Using Dataframes, we built a DF without 9th grade data from Thomas High School and combined it with the existing data 
-- **3** Using the new data, we presented the data in several ways such as by math/reading, by grade, spending ranges, school size, and type. 
+- **2** Rural cities may have far more to offer than we are giving credit. The data shows rural areas as overall low value, but the area may still be underserved. The average fare is far higher, but there is a low number of rides. It makes sense for Urban & Suburban areas to receive focus due to the number of rides needed. But utilizing a similar method to the Urban city types, we can work with rural cities, only, and find correlations between low driver counts and higher-than-average fares. 
+- **3** Our data is only Winter months. There may be more problems encountered in rural areas during the 1st qtr of the year. We will want to test the same data but for the other quarters. Advertising for more drivers in an area during seasonal demand, coupled with higher than average rates, is a great way to recruit in areas with low number of available drivers. Our drivers receive more income and our users receive the ride they request at a potentially more fair price. 
 
 
 ## Resources
