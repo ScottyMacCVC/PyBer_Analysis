@@ -9,33 +9,20 @@
   - Deliverable 3: A written report for the PyBer analysis
 ---
 ### Correlation of Data to Underserved Neighborhoods 
- -  Our goal is to correlate underserved neighborhoods to potential barriers in fare-cost per ride. We will present our method for finding the target neighborhood(s). There is one rural city which stands out. In the center of the scatter plot below, there is a rural city with a small circle. The size of the circle correlates to the number of available drivers in the city. We see the Average Fare is average compared to other rural cities, but higher than all Urban & most Suburban average $s per fare. There is demand for rides based on the higher-than-average Total Number of Rides for the city. Based on the available data, we would consider the rural city to be likely underserved. 
+ -  Our goal is to correlate underserved neighborhoods to potential barriers in fare-cost per ride. We will present our method for finding the target neighborhood(s). There is one Suburban city which stands out. In the center of the scatter plot below, there is a Subruban city with a small red circle. The size of the circle correlates to the number of available drivers in the city and the city's circle is tiny. We see the Average Fare is higher compared to other Suburban cities and higher than all Urban fare averages. There is demand for rides based on the higher-than-average Total Number of Rides for the city. Based on the available data, we would consider the Suburban city to be likely underserved. 
 ### ![Fig1 Edit for Challenge](https://github.com/ScottyMacCVC/PyBer_Analysis/blob/main/Resources/Fig1%20-%20Edit%20for%20Challenge.png)
 ---
 
 ## Summary of Urban, Suburban, & Rural City Types
-  - The data has shown a trend amoung the three city types. Our overall fares per city type reflect a trend towards Suburban & Urban cities. We see a general increase in fare dollars over the time period selected. If we refer back to our first scatter chart and use the same method to find underserved neighborhoods, we can now add in a third measurement with the chart below. The scatter plot shows three blue, Suburban dots near the same yellow, rural city dot we first explored. These blue dots are smaller and indicate a small number of available drivers. We know from the summary chart below, Suburban & Urban areas are showing growth wherease rural areas are shrinking. We would then target the three Suburban cities with low driver counts, but higher-than-average rides and average fare. 
+  - The data has shown a trend amoung the three city types. Our overall fares per city type reflect a trend towards Suburban & Urban cities. We see a general increase in fare dollars over the time period selected. If we refer back to our first scatter chart and use the same method to find underserved neighborhoods, we can now add in a third measurement with the chart below. The scatter plot shows three additional red, Suburban dots near the same red, Suburvan city dot we first explored. These red dots are smaller and indicate a small number of available drivers. We know from the summary chart below, Suburban & Urban areas are showing growth wherease rural areas are shrinking. We would recommend targeting the four Suburban cities with low driver counts, but higher-than-average rides and average fare. 
 ### ![PyBer_fare_summary](https://github.com/ScottyMacCVC/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.PNG)
 ---
-
-## How replacing the 9th Grade scores affect the following:
-   - **Math & Reading Scores by Grade** The majority of our information will remain the same. We isolated the 9th grade at Thomas High School and replaced them with NaN or Not a Number. Math and reading scores for the 10th to the 12th grade will be unaffected by the change. But we will see a correction for the 9th grade, the averages for the 9th grade in the district and all schools will be updated.  
-### ![Math and reading scores by grade](https://github.com/ScottyMacCVC/School_District_Analysis/blob/main/Resources/Math%20and%20reading%20scores%20by%20grade.JPG)
-  - **Scores by School Spending** We sorted each school into spending buckets. The section $630-$644 contained Thomas High School. The set of data associated with averages and scores will all update as a result of the 9th grade data set removal. 
-### ![District Scores & Percentages by Spending Ranges](https://github.com/ScottyMacCVC/School_District_Analysis/blob/main/Resources/District%20Scores%20%26%20Percentages%20by%20Spending%20Ranges.JPG)
-  - **Scores by School Size** We sorted each school into shool sizes. The section Medium contained Thomas High School. The set of data associated with averages and scores will all update as a result of the 9th grade data set removal. 
-### ![District Scores & Percentages by School Size](https://github.com/ScottyMacCVC/School_District_Analysis/blob/main/Resources/District%20Scores%20%26%20Percentages%20by%20School%20Size.JPG) 
-  - **Scores by School Type** We sorted each school into shool Types. The section Charter type contained Thomas High School. The set of data associated with averages and scores will all update as a result of the 9th grade data set removal. 
-### ![District Scores & Percentages by School Type](https://github.com/ScottyMacCVC/School_District_Analysis/blob/main/Resources/District%20Scores%20%26%20Percentages%20by%20School%20Type.JPG) 
-
----
-### Four Changes for the School District Analysis
+### Three Disparities Among the City Types
 - **1** Removed 9th grade data from Thomas High School 
 - **2** Using Dataframes, we built a DF without 9th grade data from Thomas High School and combined it with the existing data 
 - **3** Using the new data, we presented the data in several ways such as by math/reading, by grade, spending ranges, school size, and type. 
-- **4** We recalculated the new data from the Dataframe and added it to the summaries
 
 
 ## Resources
-- Data Source: schools_complete.csv
+- Data Source: city_data.csv & ride_data.csv
 - Software: Python 3.7.6. Jupyter Notebook with Pandas
